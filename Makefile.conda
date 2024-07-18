@@ -1,8 +1,6 @@
 #ARMADiLLO make
 
 export CPATH=$(CONDA_PREFIX)/include
-export LIBRARY_PATH=$(CONDA_PREFIX)/lib
-export LD_LIBRARY_PATH=$(CONDA_PREFIX)/lib
 cxx=g++
 flags=-ggdb -O3 -std=c++11
 links=-lboost_filesystem -lboost_system -lboost_serialization -pthread
