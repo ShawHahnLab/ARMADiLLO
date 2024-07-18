@@ -18,7 +18,7 @@ cp Substitution.csv $SHARE_DIR
 
 name=ARMADiLLO
 cat >"$PREFIX/bin/$name" <<EOF
-#!/bin/sh
+#!/bin/bash
 
 # Wrapper for ARMADiLLO that points to bundled Mutability.csv and
 # Substitution.csv by default.
