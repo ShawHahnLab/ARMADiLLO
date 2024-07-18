@@ -12,7 +12,7 @@ about:
 
 source:
   git_url: https://github.com/ShawHahnLab/ARMADiLLO.git
-  git_rev: conda
+  git_branch: conda
   git_depth: 1
 
 build:
